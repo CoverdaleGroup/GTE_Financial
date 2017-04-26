@@ -10,12 +10,12 @@ Authors: Coverdale Group
 
 .bg-gradient {
 
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,5a369a+39 */
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,5a369a+18,ffffff+36,ffffff+100 */
     background: #ffffff; /* Old browsers */
-    background: -moz-linear-gradient(top, #ffffff 0%, #5a369a 39%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #ffffff 0%,#5a369a 39%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #ffffff 0%,#5a369a 39%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#5a369a',GradientType=0 ); /* IE6-9 */
+    background: -moz-linear-gradient(top, #ffffff 0%, #5a369a 18%, #ffffff 36%, #ffffff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ffffff 0%,#5a369a 18%,#ffffff 36%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ffffff 0%,#5a369a 18%,#ffffff 36%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 }
 .btn-advertising {
 
@@ -60,6 +60,7 @@ Authors: Coverdale Group
 .header-navigation {
     height: 30px;
     background-color: #29b0e0;
+    color: #ffffff;
 }
 
 .header-navigation ul {
@@ -69,7 +70,8 @@ Authors: Coverdale Group
 
 .header-navigation li {
     float:left;
-    padding:5px 15px;
+    padding:5px 5px;
+    color: #ffffff;
 }
 
 .header-navigation a {
@@ -275,6 +277,7 @@ input, button, select, textarea {
 .navbar-default {
 
     background-color: #5A369A;
+    border-color: #5A369A;
 }
 
 .navbar-default .navbar-nav > li > a {
