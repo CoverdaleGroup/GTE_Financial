@@ -8,7 +8,15 @@ Last Updated: 10/14/16
 Authors: Coverdale Group
 */
 
+.bg-gradient {
 
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,5a369a+39 */
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top, #ffffff 0%, #5a369a 39%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ffffff 0%,#5a369a 39%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ffffff 0%,#5a369a 39%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#5a369a',GradientType=0 ); /* IE6-9 */
+}
 .btn-advertising {
 
     background-color: #41b0d9;
@@ -38,6 +46,9 @@ Authors: Coverdale Group
     }
 }
 
+.search-bar .btn.btn-default {
+    background-color: #026EA6;
+}
 .header-navigation > div,
 .category-navigation,
 .search-bar .container,
@@ -48,7 +59,7 @@ Authors: Coverdale Group
 
 .header-navigation {
     height: 30px;
-    background-color: #636467;
+    background-color: #29b0e0;
 }
 
 .header-navigation ul {
@@ -81,7 +92,9 @@ Authors: Coverdale Group
 .category-navigation .navbar .container .navbar-nav.pull-right li a,
 .category-navigation .navbar .container-view .navbar-nav.pull-right li a {
     padding:20px;
-    color:#636467;
+    color: #5A369A;
+    text-transform: uppercase;
+    font-weight: normal;
 }
 
 .category-navigation .navbar .container .navbar-nav.pull-right li ul li a,
@@ -164,7 +177,7 @@ body {
 body a {
     color: #0877A7;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 .panel-nav {
@@ -257,6 +270,11 @@ input, button, select, textarea {
 
 .container .navbar-nav li.active > a {
     color: #ffffff;
+}
+
+.navbar-default {
+
+    background-color: #5A369A;
 }
 
 .navbar-default .navbar-nav > li > a {
