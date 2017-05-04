@@ -97,6 +97,10 @@ Authors: Coverdale Group
     text-decoration:none
 }
 
+.navbar {
+    margin-bottom: -1px;
+}
+
 .category-navigation {margin:45px auto 0}
 
 .category-navigation .navbar .container .navbar-nav.pull-right li a,
