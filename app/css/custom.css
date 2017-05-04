@@ -361,7 +361,12 @@ input, button, select, textarea {
 
 
 .panel-category-list ul li .well {
+
     height: 245px;
+}
+
+.panel-category-list ul li a {
+    padding: 0;
 }
 
 .navbar-fixed-bottom {
