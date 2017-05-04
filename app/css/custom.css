@@ -127,9 +127,6 @@ Authors: Coverdale Group
     max-width:260px;
 }
 
-.search-bar .btn.btn-default {
-    background-color:#636467;
-}
 
 .search-bar .view-form-icon .btn i {
     color:#fff;
@@ -275,7 +272,10 @@ input, button, select, textarea {
     /*margin: 15px;*/
     margin:0 0 -55px;
 }
-
+.jumbotron {
+    /*margin: 15px;*/
+    padding: 0;
+}
 .container .navbar-nav li.active > a {
     color: #ffffff;
 }

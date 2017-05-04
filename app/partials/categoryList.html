@@ -11,22 +11,33 @@
         <nav class="nav 451_lbl_subcatlist">
             <ul>
                 <li class="col-lg-3 col-md-6 col-sm-6 col-xs-12" ng-repeat="c in currentCategory.SubCategories">
-                    <div class="well">
+
+
+                    <div class="well" style="border-radius: 5px; border: 1px solid #dbdbdb;">
                         <a ng-href="catalog/{{c.InteropID}}">
-                            <figure ng-show="c.Image.URL">
-                                <img class="img-responsive" ng-src="{{c.Image.URL}}"/>
-                            </figure>
+                            <div style="background-color: #1268B3; padding: 1px; border-radius: 5px 5px 0px 0px;">
+                                <h5 ng-bind-html="c.Name" style="font-size: 24px; color:#fff; font-weight: bold; font-family: Tahoma,Arial,Helvetica; text-shadow: 2px 2px 4px #000000;"/>
+                            </div>
+
+                            <div style="padding: 20px;">
+                                <figure ng-show="c.Image.URL">
+                                   <img class="img-responsive" ng-src="{{c.Image.URL}}"/>
+                                </figure>
+                            </div>
 
                             <div class="empty" ng-show="!c.Image.URL">
                                 <span class="fa empty"><i class="fa fa-camera"></i></span>
                             </div>
-                            <h5 ng-bind-html="c.Name" />
+
                         </a>
                     </div>
+
                 </li>
             </ul>
         </nav>
     </div>
+
+
     <!--
     <homemessage />
     -->
