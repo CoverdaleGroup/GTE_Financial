@@ -14,11 +14,11 @@ function ngFader($interval) {
 		//List your images here. 
 		scope.images = [
 			{
-			src: 'img/fader-images/GTE_jumbotron.jpg',
+			src: 'css/images/GTE_jumbotron.jpg',
 			alt: 'Slide 1!'
 			},
 		 	{
-			src: 'img/fader-images/GTE_jumbotron_SLIDE2.jpg',
+			src: 'css/images/GTE_jumbotron_SLIDE2.jpg',
 			alt: 'Slide 2'
 			}
 		];
