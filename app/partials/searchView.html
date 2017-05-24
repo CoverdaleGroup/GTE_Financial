@@ -36,7 +36,9 @@
             <nav class="nav">
                 <ul>
                     <li class="well" ng-repeat="product in products | paginate:(settings.currentPage-1) * settings.pageSize | limitTo:settings.pageSize">
-                        <shortproductview p="product" user="user" />
+                        <!--OLD VIEW: -->
+                        <!--<shortproductview p="product" user="user" />-->
+                        <shortproductviewminimal p="product" user="user" />
                     </li>
                 </ul>
             </nav>
