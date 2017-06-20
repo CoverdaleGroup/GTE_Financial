@@ -214,6 +214,11 @@ a:hover, a:visited, a:link, a:active
 
 }
 
+.navbar-nav > li > a {
+
+    line-height: 10px;
+}
+
 .product-detail-default {
     background-color: #ffffff;
 }
