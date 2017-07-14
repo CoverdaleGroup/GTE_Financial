@@ -59,7 +59,8 @@
     cursor: pointer
 }
 .ng-fader-pagination li:first-child {
-    margin: 4px 4px 4px 20px;
+    /*margin: 4px 4px 4px 20px;*/
+    margin: 4px 4px 4px 340px;
 }
 .ng-fader-pagination li.current {
     background-color: #666
@@ -68,7 +69,8 @@
     bottom: 10px;
     height: 20px;
     position: absolute;
-    right: 20px
+    /*right: 20px;*/
+    right: 320px;
 }
 .ng-fader-controls li {
     color: #FFF;

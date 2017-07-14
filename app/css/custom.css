@@ -390,3 +390,13 @@ input, button, select, textarea {
     position: relative;
     margin-bottom: 15px;
 }
+
+.panel-default, .panel-search, .panel-category-list ul li a .empty, .panel-order {
+
+    border: none;
+}
+
+.panel-primary, {
+
+    border: none;
+}

@@ -1,4 +1,4 @@
-<div class="panel panel-default" ng-show="currentCategory.SubCategories.length">
+<div class="panel panel-default" ng-show="currentCategory.SubCategories.length" style="border-color: #fff;">
     <!--
     <div class="panel-heading" >
         <h3 class="panel-title" >
@@ -7,7 +7,7 @@
     </div>
     -->
     <div class="panel-category-list" style="width: 950px; margin: auto;">
-    
+
         <loadingindicator ng-show="categoryLoadingIndicator" title="{{'Please wait while we fetch all categories' | r | xlat}}" />
         <nav class="nav 451_lbl_subcatlist">
             <ul>
